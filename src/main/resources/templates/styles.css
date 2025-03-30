@@ -1,0 +1,135 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    background-image: url('images/gifNieve.gif');
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+}
+
+
+/* Barra superior azul */
+.header {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.header h1 {
+    margin: 4px;
+    font-family: "Bookman Old Style";
+}
+
+/* Contenido principal */
+.container {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.container h2 {
+    color: #333;
+    font-family: "Modern No. 20";
+}
+
+.container p {
+    color: #555;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.image-laponia {
+    width: 80%;
+    height: auto;
+    max-height: 500px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+
+
+.footer-buttons .btn{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+
+
+}
+
+.footer-buttons .btn:hover {
+    background-color: rgba(19, 140, 140, 0.35);
+    color: white;
+}
+
+
+.table{
+
+    font-family: "Bookman Old Style";
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 80px;
+}
+
+.botonContacto{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+
+.form-floating{
+    display: block;
+    max-width: 300px;
+    margin:0 auto;
+    margin-top: 40px;
+
+}
+
+.btn_contaco_principal{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+
+    margin-left: 600px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.video{
+    width: 100%;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
