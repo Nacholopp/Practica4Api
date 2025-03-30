@@ -127,6 +127,14 @@ body {
     margin-top: 60px;
 }
 
+.btn-envia-form{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+
 
 
 
