@@ -79,7 +79,7 @@ async function borrarUsuario() {
     const email = document.getElementById("emailBorrar").value;
 
     try {
-        const response = await fetch(`http://localhost:8080/api/contadores/${email}`, {
+        const response = await fetch(`http://localhost:8080/api/registro/${email}`, {
             method: "DELETE",
         });
 

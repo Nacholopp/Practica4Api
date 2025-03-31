@@ -26,7 +26,7 @@ public class ControladorRest {
         return usuarios.get(email);
     }
 
-    @DeleteMapping("api/contadores/{email}")
+    @DeleteMapping("api/registro/{email}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void elimina(@PathVariable String email) {usuarios.remove(email);}
 
